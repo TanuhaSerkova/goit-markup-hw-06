@@ -363,7 +363,7 @@
                 </div>
                 <div class="footer-subscribr">
                     <h3 class="footer-title title">Подпишитесь на рассылку</h3>
-                    <form action="#" class="onlain-form">
+                    <form action="#" class="onlain-subscribr">
                         <input type="text" name="mailto" placeholder="E-mail" class="mail-input">
                             <button type="button" class="footer-button button">Подписаться<svg class="mail-icon">
                                 <use href="./images/icons.svg#icon-icon-send"></use>
@@ -381,6 +381,25 @@
                         <use href="./images/sprite-2.svg#icon-close-black"></use>
                     </svg>
                 </button>
+                <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+                <form action="#" class="modal-form">
+                    <div class="modal-dlock">
+                        <label for="user-name" class="label-input">Имя</label>
+                        <input type="text" name="user-name" id="user-name" class="modal-input">
+                    </div>
+                    <div class="modal-dlock">
+                        <label for="user-tel" class="label-input">Телефон</label>
+                        <input type="tel" name="user-tel" id="user-tel" class="modal-input">
+                    </div>
+                    <div class="modal-dlock">
+                        <label for="user-email" class="label-input">Почта</label>
+                        <input type="email" name="user-email" id="user-email" class="modal-input">
+                    </div>
+                    <div class="modal-dlock">
+                        <label for="user-text" class="label-input">Комментарий</label>
+                        <textarea name="user-text" id="user-text" class="modal-text" placeholder="Введите текст"></textarea>
+                    </div>
+                </form>
             </div>
         </div>
         <script src="./js/modal.js"></script>
