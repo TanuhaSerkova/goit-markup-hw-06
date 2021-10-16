@@ -409,7 +409,6 @@ img {
 }
 .footer-container {
   display: flex;
-  align-items: baseline;
 }
 .footer-social-icon {
   margin-left: 70px;
@@ -488,7 +487,6 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-  align-items: center;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-button {
