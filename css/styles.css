@@ -712,3 +712,10 @@ img {
   background-color: transparent;
   resize: none;
 }
+
+.modal-button {
+  width: 200px;
+  height: 50px;
+  padding: 10px 56px;
+  background: #2196f3;
+}
